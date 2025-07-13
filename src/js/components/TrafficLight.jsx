@@ -1,6 +1,6 @@
 export const TrafficLight = ({ color, setColor, showPurple }) => {
   return (
-    <section className="traffic-light mx-auto mt-5">
+    <section className="traffic-light mx-auto mt-5 mb-5">
       <div
         className={`light red ${color === "red" ? "on" : ""}`}
         onClick={() => setColor("red")}

@@ -24,7 +24,6 @@ export const TrafficControl = () => {
 
   return (
     <div style={{ textAlign: "center" }}>
-      <h1>Control del Semáforo</h1>
       <TrafficLight color={color} setColor={setColor} showPurple={showPurple} />
       <div style={{ marginTop: "20px" }}>
         <button onClick={nextColor}>Cambiar color</button>
